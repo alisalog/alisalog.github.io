@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Petter App</title>
+        <title>Alisa Logacheva - Petter</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -17,7 +17,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -34,27 +34,90 @@
                     </div>
                 </div>
             </nav>
-            <!-- Header-->
-            <header class="py-5-index">
 
             </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="my-5">
-                                <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Petter</span></h2>
-                                <div class="ms-3 me-3">
-                                <p class="my-5 text-muted">I am a Web Design and Development student at the University of Central Florida pursuing a career in UX/UI design. My passion for product design goes beyond pleasant-looking interfaces. In my work, I focus on creating an accessible and convenient user experience. My main strategies are customer focus, clear goal visualization, design thinking, and risk identification.</p>
-                                <p class="text-muted">My technical skills include Figma, Canva, and Sketch softwares, as well as Adobe applications. I am always eager to learn more new tools to efficiently create dynamic designs for mobile applications, websites, digital platforms, and more.</p>
-                                <p class="text-muted">I have over two years of experience working with HTML, CSS, JavaScript, Node.js, React Native, and various database management systems (such as MySQL and MongoDB), as well as command-line tools. My background in web development allows for a deeper understanding of the technical aspects when designing digital interfaces. I am able to design with realistic implementation possibilities in mind, which helps build a stronger connection between the design and development teams.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h3 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Petter</span></h3>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+  
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+  
+                <div class="swiper-wrapper align-items-center">
+  
+                  <div class="swiper-slide">
+                    <img src="assets/img/petter/petter-img1.jpg" alt="Woman's hand holding a phone with app's home screen. Dog sleeping in the background">
+                  </div>
+  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/product-1.jpg" alt="">
+                  </div>
+  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                  </div>
+  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/books-1.jpg" alt="">
+                  </div>
+  
                 </div>
-            </section>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Project information</h3>
+                <ul>
+                  <li><strong>Category</strong>: App</li>
+                  <li><strong>Project date</strong>: Aug 2024 - Present</li>
+                  <li><strong>Project URL</strong>: <a href="https://www.figma.com/proto/wYHkWfFqMHvV8TV1Ow0iib/Group-8?node-id=689-260&t=NvMWI6qTfvh9ndC8-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=689%3A260&show-proto-sidebar=1" target="_blank">Figma Prototype</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>About</h2>
+                <p class="text-muted">Petter is an app designed to help pet owners manage animal care.</p>
+                <p class="text-muted"><strong>Key features:</strong> <br> 
+                    <ul class="text-muted">
+                        <li>Creating pet profiles, including medical history and other characteristics that will make pet stores, groomers, and vet clinic visits easier.</li>
+                        <li>Pets&#39 feeding schedule and noting food amounts to promote a healthier diet.</li>
+                        <li>Tracking pet exercise routine and finding new dog parks in the area.</li>
+                        <li>Finding the best pet products on the market.</li>
+                        <li>Scheduling vet appointments and setting reminders.</li>
+                    </ul>
+                </p>
+                <p class="text-muted">The app&#39s robust progression trackers allow users to monitor pet care activities and needs, making taking care of your pets easy and stress-free.</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Portfolio Details Section -->
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
