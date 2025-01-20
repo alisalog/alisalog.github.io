@@ -11722,13 +11722,29 @@ html {
   }
 }
 
-
-* Projects page styles*/
+ /* Projects page styles */
 .logo-img {
   width: 35%;
 }
 
 /* Portfolio Details Section */
+
+video {
+  display: block;
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  margin: 15px 0; /* Add spacing around the video */
+}
+
+/* Styles for portfolio images */
+.portfolio-images img {
+  display: block;          /* Ensures each image starts on a new line */
+  margin-bottom: 5%;     /* Adds spacing between images */
+  width: 100%;             /* Ensures images take up the available width */
+  max-width: 100%;         /* Prevents images from exceeding their natural size */
+  height: auto;            /* Maintains aspect ratio */
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
