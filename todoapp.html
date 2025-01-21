@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Todo App</title>
+        <title>Alisa Logacheva - ToDo App</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -16,8 +16,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+       <!-- Swiper css -->
+        <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css"/>
+
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -34,27 +37,56 @@
                     </div>
                 </div>
             </nav>
-            <!-- Header-->
-            <header class="py-5-index">
 
             </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="my-5">
-                                <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Todo App</span></h2>
-                                <div class="ms-3 me-3">
-                                <p class="my-5 text-muted">I am a Web Design and Development student at the University of Central Florida pursuing a career in UX/UI design. My passion for product design goes beyond pleasant-looking interfaces. In my work, I focus on creating an accessible and convenient user experience. My main strategies are customer focus, clear goal visualization, design thinking, and risk identification.</p>
-                                <p class="text-muted">My technical skills include Figma, Canva, and Sketch softwares, as well as Adobe applications. I am always eager to learn more new tools to efficiently create dynamic designs for mobile applications, websites, digital platforms, and more.</p>
-                                <p class="text-muted">I have over two years of experience working with HTML, CSS, JavaScript, Node.js, React Native, and various database management systems (such as MySQL and MongoDB), as well as command-line tools. My background in web development allows for a deeper understanding of the technical aspects when designing digital interfaces. I am able to design with realistic implementation possibilities in mind, which helps build a stronger connection between the design and development teams.</p>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h3 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">ToDo App</span></h3>
+        </div>
+        <!-- Positioning info about project -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+            </div>
+
+            <!-- Project Images -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <!-- Images Section -->
+                <div class="col-lg-8">
+                    <div class="portfolio-images">
+                        <img src="assets/img/todoapp-img1.jpg" alt="Image 1">
+                        <img src="assets/img/todoapp-img2.jpg" alt="Image 2">
                     </div>
                 </div>
-            </section>
+                <!-- Project Information Section -->
+                <div class="col-lg-4">
+                    <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: App Design</li>
+                            <li><strong>Project date</strong>: Mar 2024</li>
+                            <li><strong>Project URL</strong>: <a href="https://www.figma.com/design/5JH9uU536Z1wYUXOWdtRkq/ToDoApp?node-id=0-1&p=f&t=FX0kGAOevREpLhas-0" target="_blank">Figma Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                        <h2>About</h2>
+                        <p class="text-muted">ToDo App is a mini project designated to demonstrate both creativity and problem-solving skills through the design of a simple digital product like a to-do app.</p>
+                        <p class="text-muted"><strong>Project description:</strong></p>
+                        <ul class="text-muted">
+                            <li>For this project, I explored various design approaches and chose to focus on iOS UI design. I followed Human Interface Guidelines and utilized Apple's visual elements to create a polished and cohesive UX.</li>
+                            <li>The project challenged me to apply my quick decision-making skills to create a user interface from scratch to address specific user needs.</li>
+                            <li>In my work, I prioritized a simple UI and intuitive navigation while incorporating a 'brand' identity with soft color palettes and unique visual elements.</li>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+      
+          </section><!-- /Portfolio Details Section -->
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
@@ -69,7 +101,21 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js.map"></script>
     </body>
 </html>

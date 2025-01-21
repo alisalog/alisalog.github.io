@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Save-a-Coin App</title>
+        <title>Alisa Logacheva - SaveACoin</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -16,8 +16,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+       <!-- Swiper css -->
+        <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css"/>
+
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -34,27 +37,63 @@
                     </div>
                 </div>
             </nav>
-            <!-- Header-->
-            <header class="py-5-index">
 
             </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="my-5">
-                                <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Save-a-Coin</span></h2>
-                                <div class="ms-3 me-3">
-                                <p class="my-5 text-muted">I am a Web Design and Development student at the University of Central Florida pursuing a career in UX/UI design. My passion for product design goes beyond pleasant-looking interfaces. In my work, I focus on creating an accessible and convenient user experience. My main strategies are customer focus, clear goal visualization, design thinking, and risk identification.</p>
-                                <p class="text-muted">My technical skills include Figma, Canva, and Sketch softwares, as well as Adobe applications. I am always eager to learn more new tools to efficiently create dynamic designs for mobile applications, websites, digital platforms, and more.</p>
-                                <p class="text-muted">I have over two years of experience working with HTML, CSS, JavaScript, Node.js, React Native, and various database management systems (such as MySQL and MongoDB), as well as command-line tools. My background in web development allows for a deeper understanding of the technical aspects when designing digital interfaces. I am able to design with realistic implementation possibilities in mind, which helps build a stronger connection between the design and development teams.</p>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h3 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Save-a-Coin</span></h3>
+        </div>
+        <!-- Positioning info about project -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+            </div>
+
+            <!-- Project Images -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <!-- Images Section -->
+                <div class="col-lg-8">
+                    <div class="portfolio-images">
+                        <img src="assets/img/saveacoin-img1.jpg" alt="Four different people holding phones. Save a coin app is shown on screens of those phones.">
+                        <video controls autoplay muted loop playsinline>
+                          <source src="assets/img/saveacoin-video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                      
                     </div>
                 </div>
-            </section>
+                <!-- Project Information Section -->
+                <div class="col-lg-4">
+                    <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: App Prototype</li>
+                            <li><strong>Project date</strong>: Sep 2024 - Dec 2024</li>
+                            <li><strong>Project URL</strong>: <a href="https://www.figma.com/proto/CqtxOiydv9fpDTGnb20R1U/Save-a-Coin?node-id=256-27098&t=mfDqMrn4J6y1c6lv-0&scaling=scale-down&content-scaling=fixed&page-id=238%3A1116&starting-point-node-id=256%3A27098" target="_blank">Figma Prototype</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                        <h2>About</h2>
+                        <p class="text-muted">Save-a-Coin is a money-saving and tracking app designed to help users take control of their finances with ease and confidence.</p>
+                        <p class="text-muted"><strong>Key features:</strong></p>
+                        <ul class="text-muted">
+                            <li>Create a customized profile tailored to your financial goals, location, preferred currency, number format, and more.</li>
+                            <li>Link your bank account for easier spending and savings tracking. This feature automatically fetches transaction details, eliminating the need for manual input.</li>
+                            <li>Categorize and monitor your expenses in a way that works for you. The simple interface allows for seamless navigation and a clear overview of your financial activities.</li>
+                            <li>Create savings categories, set achievable goals, and track your progress in real-time by linking your savings account.</li>
+                            <li>Discover coupons and deals from your favorite stores for online and in-person shopping. Filter your search with categories.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+      
+          </section><!-- /Portfolio Details Section -->
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
@@ -69,7 +108,21 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js.map"></script>
     </body>
 </html>
