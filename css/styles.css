@@ -2834,11 +2834,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1e30f3;
-  --bs-btn-border-color: #1e30f3;
+  --bs-btn-bg: #1C479E;
+  --bs-btn-border-color: #1C479E;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
-  --bs-btn-hover-border-color: #1826c2;
+  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-border-color: #212529;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #1826c2;
@@ -4795,7 +4795,7 @@ textarea.form-control-lg {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 3rem 0;
 }
 
 .list-group-numbered {
@@ -11722,11 +11722,6 @@ html {
   }
 }
 
- /* Projects page styles */
-.logo-img {
-  width: 35%;
-}
-
 /* Portfolio Details Section */
 
 video {
@@ -11736,6 +11731,79 @@ video {
   margin: 15px 0; /* Add spacing around the video */
 }
 
+/* Styling for project elements */
+.project-image {
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+}
+
+/* Video Styling */
+.project-video {
+  max-width: 70%;
+}
+
+/* Centering Headings */
+.portfolio-details h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.portfolio-details h3 {
+  text-align: center;
+  color: var(--bs-gray-700);
+}
+
+/* Project Overview Section */
+.project-overview {
+  padding: 1rem 0;
+}
+
+.left-col{
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+@media (min-width: 1200px) {
+  .left-col {
+    padding: 6.5%;
+  }
+}
+
+/* Left-side Title Styling */
+.overview-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+}
+
+/* Underline effect above "project overview" */
+.overview-underline {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #fec34e;  /* Yellow */
+  margin-bottom: 10px;
+}
+
+/* Right-side content (background, goal, timeline) */
+.overview-content {
+  margin-bottom: 30px;
+}
+
+.overview-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.text-muted {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--bs-gray-700);
+}
+
+
 /* Styles for portfolio images */
 .portfolio-images img {
   display: block;          /* Ensures each image starts on a new line */
@@ -11743,26 +11811,6 @@ video {
   width: 100%;             /* Ensures images take up the available width */
   max-width: 100%;         /* Prevents images from exceeding their natural size */
   height: auto;            /* Maintains aspect ratio */
-}
-
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
 }
 
 .portfolio-details .portfolio-info {
