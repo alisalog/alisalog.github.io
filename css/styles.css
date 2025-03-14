@@ -11823,11 +11823,18 @@ video {
 }
 
 /* Underline effect above "project overview" */
-.overview-underline {
+.overview-underline-petter {
   display: block;
   width: 90px;
   height: 5px;
   background-color: #fec34e;  /* Yellow */
+  margin-bottom: 10px;
+}
+.overview-underline-ada {
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #709ac8;  /* Blue */
   margin-bottom: 10px;
 }
 
