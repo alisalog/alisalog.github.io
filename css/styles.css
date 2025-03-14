@@ -11722,14 +11722,48 @@ html {
   }
 }
 
-/* Portfolio Details Section */
+/* --- PORTFOLIO DETAILS Section --- */
 
 video {
   display: block;
-  max-width: 100%;
   height: auto; /* Maintain aspect ratio */
-  margin: 15px 0; /* Add spacing around the video */
 }
+/* Video Styling */
+.project-video {
+  max-width: 70%;
+  border-radius: 15px;
+}
+/* Video sizing in Phone view */
+@media (max-width: 575.98px) {
+  .project-video {
+    max-width: 100%;
+  }
+}
+
+/* Styling for Project Info Section */
+.project-info {
+  padding: 5% 7% 0 7%;
+  text-align: left;
+}
+
+/* Project Info Section Titles */
+.info-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/* Responsive Stacking for Smaller Screens */
+@media (max-width: 768px) {
+  .project-info .row {
+      text-align: left;
+      justify-content: space-between;
+  }
+  .project-info .col-lg-4 {
+      margin-bottom: 20px;
+  }
+}
+
 
 /* Styling for project elements */
 .project-image {
@@ -11737,11 +11771,6 @@ video {
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 5%;
-}
-
-/* Video Styling */
-.project-video {
-  max-width: 70%;
 }
 
 /* Centering Headings */
@@ -11766,7 +11795,22 @@ video {
 }
 @media (min-width: 1200px) {
   .left-col {
-    padding: 6.5%;
+    padding-left: 6.5%;
+  }
+}
+/* Width of the project detials section */
+@media (min-width: 992px) {
+  .right-col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+  }
+
+/* Adding extra padding on sides in Phone view */
+@media (max-width: 575.98px) {
+  .left-col, .right-col {
+    padding-left: 7%;
+    padding-right: 7%;
   }
 }
 
@@ -11781,8 +11825,8 @@ video {
 /* Underline effect above "project overview" */
 .overview-underline {
   display: block;
-  width: 50px;
-  height: 4px;
+  width: 90px;
+  height: 5px;
   background-color: #fec34e;  /* Yellow */
   margin-bottom: 10px;
 }
@@ -11795,6 +11839,7 @@ video {
 .overview-heading {
   font-size: 1.8rem;
   font-weight: 700;
+  text-align: left !important;
 }
 
 .text-muted {
