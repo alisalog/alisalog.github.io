@@ -11778,16 +11778,54 @@ video {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 5%;
 }
+.project-logo1-image {
+  max-width:38%;
+  border-radius: 5px;
+}
 .project-logo-image {
   max-width: 50%;
   border-radius: 5px;
+}
+.project-logo2-image {
+  max-width: 60%;
+  border-radius: 5px;
+}
+.project-design-image {
+  max-width: 65%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
   margin-bottom: 5%;
 }
-
+.project-screens-image {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+}
 .project-personas-image {
   max-width: 100%;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-top: 5%;
+}
+
+/* Animation Properties */
+.hidden {
+  opacity: 0;
+  transform: translateX(100px); /* Start off-screen to the right */
+  transition: all 0.8s ease-out;
+}
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* Fade-in Animation for Titles */
+.fade-hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.fade-show {
+  opacity: 1;
 }
 
 /* Centering Headings */
