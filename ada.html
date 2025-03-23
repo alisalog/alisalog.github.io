@@ -41,17 +41,17 @@
             </header>
             <!-- Project Section -->
             <section id="portfolio-details" class="portfolio-details section">
-                <div class="container text-center" data-aos="fade-up">
+                <div class="container text-center fade-hidden" data-aos="fade-up">
                     <h1 class="display-4 fw-bolder text-primary">Aesthetic Design Alliance</h1>
                     <h3>Home improvement company website</h3>
                 </div>
                 
                 <!-- Project Info Section -->
-                <div class="container project-info" data-aos="fade-up" data-aos-delay="150">
+                <div class="container project-info hidden" data-aos="fade-up" data-aos-delay="150">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
-                            <h4 class="info-title">PLATFORMS</h4>
-                            <p class="text-muted">Bootstrap</p>
+                            <h4 class="info-title">PLATFORMS & <br> FRAMEWORKS</h4>
+                            <p class="text-muted">Figma <br> Bootstrap</p>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <h4 class="info-title">DELIVERABLES</h4>
@@ -74,7 +74,7 @@
 <div class="container project-overview" data-aos="fade-up" data-aos-delay="200">
     <div class="row">
         <!-- Left Column for "Project Overview" -->
-        <div class="left-col">
+        <div class="left-col fade-hidden">
             <h2 class="overview-title">
                 <span class="overview-underline-ada"></span>
                 PROJECT <br> OVERVIEW
@@ -82,7 +82,7 @@
         </div>
 
         <!-- Right Column for Project Information -->
-        <div class="right-col">
+        <div class="right-col hidden">
             <div class="overview-content">
                 <h3 class="overview-heading">About</h3>
                 <p class="text-muted">
@@ -100,6 +100,72 @@
             </div>
             <div class="overview-content">
                 <h3 class="overview-heading">Timeline</h3>
+                <p class="text-muted">
+                    The entirety of the project took two weeks to complete. Research and the initial Figma design process took three days; the development, being the most time-consuming part of the project, took nine days; and finally, debugging, website hosting, and final touch-ups took roughly two days.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Process -->
+<div class="container project-overview" data-aos="fade-up" data-aos-delay="200">
+    <div class="row">
+        <!-- Left Column for "Project Overview" -->
+        <div class="left-col fade-hidden">
+            <h2 class="overview-title">
+                <span class="overview-underline-ada"></span>
+                PROCESS
+            </h2>
+        </div>
+
+        <!-- Right Column for Project Information -->
+        <div class="right-col hidden">
+            <div class="overview-content">
+                <h3 class="overview-heading">Research</h3>
+                <p class="text-muted">
+                    To create a user-friendly and visually compelling website, I researched how users interact with home improvement service sites, focusing on companies in the New York City area and comparing them with those in other states. This helped me identify common user expectations, trust-building features, and effective design patterns. I analyzed service layouts, project galleries, and contact flows to determine what drives engagement and credibility. </p>
+                    <p class="text-muted">
+                    These insights, combined with the client’s specific goals and aesthetic preferences, guided the design direction and ensured the final product met both user needs and business objectives.
+                </p>
+            </div>
+            <div class="overview-content">
+                <h3 class="overview-heading">Design Process</h3>
+                <p class="text-muted">
+                    The entirety of the project took two weeks to complete. The initial Figma design process took two days; the development, being the most time-consuming part of the project, took nine days; and finally, debugging, website hosting, and final touch-ups took roughly two days.
+                </p>
+            </div>
+            <div class="overview-content">
+                <h3 class="overview-heading">Development Process</h3>
+                <p class="text-muted">
+                    The entirety of the project took two weeks to complete. The initial Figma design process took two days; the development, being the most time-consuming part of the project, took nine days; and finally, debugging, website hosting, and final touch-ups took roughly two days.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Outcomes -->
+<div class="container project-overview" data-aos="fade-up" data-aos-delay="200">
+    <div class="row">
+        <!-- Left Column for "Project Overview" -->
+        <div class="left-col fade-hidden">
+            <h2 class="overview-title">
+                <span class="overview-underline-ada"></span>
+                OUTCOMES
+            </h2>
+        </div>
+
+        <!-- Right Column for Project Information -->
+        <div class="right-col hidden">
+            <div class="overview-content">
+                <h3 class="overview-heading">Challenges</h3>
+                <p class="text-muted">
+                    Aesthetic Design Alliance is a landing website for a construction and home improvement company located in Manhattan, NY. The website serves as the online face of the ADA company, contains contact information, and showcases renovation projects.
+                </p>
+            </div>
+            <div class="overview-content">
+                <h3 class="overview-heading">Current State</h3>
                 <p class="text-muted">
                     The entirety of the project took two weeks to complete. The initial Figma design process took two days; the development, being the most time-consuming part of the project, took nine days; and finally, debugging, website hosting, and final touch-ups took roughly two days.
                 </p>
@@ -131,19 +197,32 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js.map"></script>
+                <!-- JavaScript to trigger the animation when elements come into view -->
+                <script>
+                    // Target elements with slide-in animation
+                    const hiddenElements = document.querySelectorAll('.hidden');
+                    // Target elements with fade-in animation (overview titles)
+                    const fadeElements = document.querySelectorAll('.fade-hidden');
+                
+                    const observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('show');
+                            }
+                        });
+                    }, { threshold: 0.2 });
+                
+                    hiddenElements.forEach(element => observer.observe(element));
+                
+                    const fadeObserver = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('fade-show');
+                            }
+                        });
+                    }, { threshold: 0.2 });
+                
+                    fadeElements.forEach(element => fadeObserver.observe(element));
+                </script>    
+    </body>
 </html>
