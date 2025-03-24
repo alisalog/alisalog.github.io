@@ -11764,7 +11764,6 @@ video {
   }
 }
 
-
 /* Styling for project elements */
 .project-image {
   max-width: 90%;
@@ -11803,11 +11802,19 @@ video {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 5%;
 }
+.project-screens2-image {
+  max-width: 80%;
+  margin-bottom: 5%;
+  align-items: center;
+  margin: 0 auto;
+
+}
 .project-personas-image {
   max-width: 100%;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-top: 5%;
 }
+
 
 /* Animation Properties */
 .hidden {
@@ -11891,6 +11898,13 @@ video {
   width: 90px;
   height: 5px;
   background-color: #709ac8;  /* Blue */
+  margin-bottom: 10px;
+}
+.overview-underline-todo {
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #B8DBA7;  /* Green */
   margin-bottom: 10px;
 }
 
