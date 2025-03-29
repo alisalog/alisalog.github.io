@@ -11915,6 +11915,13 @@ video {
   background-color: #44BAF6;  /* Light blue */
   margin-bottom: 10px;
 }
+.overview-underline-flashcard {
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #126DE2;  /* Dark blue */
+  margin-bottom: 10px;
+}
 
 /* Right-side content (background, goal, timeline) */
 .overview-content {
