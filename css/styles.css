@@ -11766,7 +11766,7 @@ video {
 
 /* Styling for project elements */
 .project-image {
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 5%;
@@ -11902,6 +11902,13 @@ video {
 }
 
 /* Underline effect above "project overview" */
+.overview-underline-ppl {
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #007AB8;  /* PPL Blue */
+  margin-bottom: 10px;
+}
 .overview-underline-petter {
   display: block;
   width: 90px;
