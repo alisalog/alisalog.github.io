@@ -11833,7 +11833,11 @@ video {
 }
 .project-image3 {
   max-width: 100%;
+  height: auto;
   margin-top: 2%;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 /* Animation Properties */
